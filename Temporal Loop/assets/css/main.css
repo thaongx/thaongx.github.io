@@ -1,0 +1,253 @@
+@font-face {
+font-family: 'gothamblack';
+src: url('../gothamblack/gothamblack-webfont.eot'); /* IE9 Compat Modes */
+src: url('../gothamblack/gothamblack-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../gothamblack/gothamblack-webfont.svg#gothamblack') format('svg'), /* Legacy iOS */
+  url('../gothamblack/gothamblack-webfont.woff') format('woff'), /* Modern Browsers */
+  url('../gothamblack/gothamblack-webfont.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+
+@font-face {
+font-family: 'gothambold';
+src: url('../gothambold/gothambold-webfont.eot'); /* IE9 Compat Modes */
+src: url('../gothambold/gothambold-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../gothambold/gothambold-webfont.svg#gothambold') format('svg'), /* Legacy iOS */
+  url('../gothambold/gothambold-webfont.woff') format('woff'), /* Modern Browsers */
+  url('../gothambold/gothambold-webfont.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+
+@font-face {
+font-family: 'gothambook';
+src: url('../gothambook/gothambook-webfont.eot'); /* IE9 Compat Modes */
+src: url('../gothambook/gothambook-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../gothambook/gothambook-webfont.svg#gothambook') format('svg'), /* Legacy iOS */
+  url('../gothambook/gothambook-webfont.woff') format('woff'), /* Modern Browsers */
+  url('../gothambook/gothambook-webfont.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+body {
+	background-color: black;
+	color: #5CFAFD;   
+}
+
+.number {
+	font-family: 'gothambook';
+	font-size: 2vw;
+	text-transform: unset;
+	display: flex;
+	justify-content: space-between;
+	padding: 15px;
+	opacity: 45%;   
+}
+
+.copyright {
+	font-family: 'gothambook';
+	font-size: 1vw;
+	text-transform: unset;
+	text-align: center;
+	padding-top: 25px;
+}
+
+.title {
+	font-family: 'gothamblack';
+	font-size: 12.5vw;
+	text-transform: unset;
+	color: #5CFAFD;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+.alignright {
+	display: inline-block;
+	text-align: right;
+}
+
+.stroke {
+	-webkit-text-fill-color: black; 
+ 	-webkit-text-stroke-width: 1px;
+  	-webkit-text-stroke-color: #5CFAFD;
+}
+
+
+.headerbox {
+	margin: auto;
+	width: 90.5vw;
+}
+
+
+.header {
+	border-top: 1px solid #5CFAFD;
+	padding: 25px;
+	font-family: 'gothamblack';
+	font-size: 4.5vw;
+	cursor: pointer;
+}
+
+.header:hover {
+	-webkit-text-fill-color: black; 
+ 	-webkit-text-stroke-width: 1px;
+  	-webkit-text-stroke-color: #5CFAFD;
+}
+
+.toggle {
+	padding: 20px;
+	color: red;
+	display: none;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.item img {
+	width: 100%;
+}
+
+.w5of8 {
+	width: 62.5%;
+	padding-right: 2vw;
+	border-right: 1px solid #5CFAFD;  
+}
+
+.column {
+	flex-direction: column;
+	padding-left: 2vw;
+}
+
+.w3of8 {
+	width: 37.5%;	
+}
+
+.line {
+	padding-bottom: 5vw;
+	border-bottom: 1px solid #5CFAFD;
+}
+
+.subtitle {
+	font-family: 'gothambold';
+	font-size: 1.8vw;
+	text-transform: unset;
+	color: #5CFAFD;
+	padding-left: 10%;
+	padding-bottom: 1vw;
+	padding-top: 4vw;
+}
+
+.containerbox {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.box {
+	width: 6vw;
+	height: 4.8vw;
+	border: 1px solid #5CFAFD;
+}
+
+.box:hover {
+	background-color: #5CFAFD;
+}
+
+.text:hover {
+	color: black;
+}
+
+.text {
+	font-family: 'gothambook';
+	font-size: 1.5vw;
+	color: #5CFAFD;
+	text-align: center;
+	padding-top: 27%;
+}
+
+.padding {
+	padding-bottom: 2.5vw;
+}
+
+.rectangle {
+	width: 4.7vw;
+	height: 1.5vw;
+	border: 1px solid #5CFAFD;
+}
+
+.rectangle:hover {
+	width: 4.7vw;
+	height: 1.5vw;
+	background-color: #5CFAFD;
+}
+
+
+.subtext {
+	font-family: 'gothambook';
+	font-size: 1.1vw;
+	color: #5CFAFD;
+	text-align: center;
+	padding-top: 3%;
+}
+
+.subtext:hover {
+	font-family: 'gothambook';
+	font-size: 1.1vw;
+	color: black;
+	text-align: center;
+	padding-top: 3%;
+}
+
+.break {
+	padding: 1vh;
+}
+
+.columnbig {
+  	float: left;
+  	border: 1px solid #5CFAFD;
+  	width: 62.5%;
+  	height: 10vw;
+  	padding-bottom: 11vw;
+}
+
+.columnsmall {
+	border-top: 1px solid #5CFAFD;
+	border-bottom: 1px solid #5CFAFD;
+	border-right: 1px solid #5CFAFD;
+  	float: left;
+  	width: 37.5%;
+  	height: 10vw;
+  	padding-bottom: 11vw;
+}
+
+.subtitletwo {
+	font-family: 'gothambold';
+	font-size: 1.8vw;
+	text-transform: unset;
+	color: #5CFAFD;
+	padding-left: 5%;
+	padding-bottom: 1vw;
+	padding-top: 3.5vw;
+}
+
+.texttwo {
+	font-family: 'gothambook';
+	font-size: 1.3vw;
+	text-transform: unset;
+	color: #5CFAFD;
+	padding-left: 5%;
+}
+
+.textthree {
+	font-family: 'gothambook';
+	font-size: 1.3vw;
+	text-transform: unset;
+	color: #5CFAFD;
+	padding-left: 8%;
+	padding-bottom: 1vw;
+	padding-top: 3.5vw;
+}
+
+.code {
+	height:102%; 
+	width:102%;
+}

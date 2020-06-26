@@ -1,0 +1,90 @@
+body {
+	background-color: lightblue;
+	font-family: arial;
+
+}
+
+.bg {
+	text-align: center;
+	/*1 st px is left to right
+	2nd px is top to bottom
+	3rd px is clear to blurry*/
+}
+
+.bg.one {
+	text-shadow: 0px 0px 40px yellow;
+}
+
+.bg.two {
+	text-shadow: 0px 0px 20px lime;
+}
+
+.bg.three {
+	text-shadow: 0px 0px 10px cyan;
+}
+
+.bg.four {
+	text-shadow: 0px 0px 60px orange;
+}
+
+.mid {
+
+}
+
+.mid.one {
+	color: yellow;
+}
+
+.mid.two {
+	color: red;
+}
+
+.mid.three {
+	color: lime;
+}
+}
+
+.mid.four {
+	color: lightblue;
+}
+
+.text {
+	
+}
+
+.text.one {
+	font-size: 30px;
+}
+
+.text.two {
+	font-size: 60px;
+}
+
+.text.three {
+	font-size: 200px;
+	line-height: 180px;
+}
+
+.text.four {
+	font-size: 300px;
+	line-height: 235px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

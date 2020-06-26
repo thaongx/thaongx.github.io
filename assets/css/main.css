@@ -1,0 +1,215 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 32px;
+	background-color: black;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+
+
+.dog{
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	padding-top: 50px;
+
+}
+
+
+.dog img {
+	width: 100%;
+	
+}
+
+.links {
+	position: fixed;
+	top: 20px;
+	left: 20px;
+	font-family: arial;
+	font-weight: bold;
+	line-height: 130%;
+	display: block;
+}
+
+.links a {
+	text-decoration: none;
+	color: black;
+	-webkit-text-fill-color: black; 
+ 	-webkit-text-stroke-width: 1px;
+  	-webkit-text-stroke-color: white;
+	display: block;s
+}
+
+.title {
+	font-size: 7vw;
+	padding-top: 30px;
+}
+
+.title:hover {
+  font-size: 0;
+}
+
+.title:hover:before{
+	font-size: 7vw;
+	padding-top: 50px;
+	content: "THAO'S \a WEIRD \a WIDE \a WEB";
+	white-space: pre-wrap;
+}
+
+.links a:hover {
+	color: blue;
+
+}
+
+
+
+
+.name {
+	font-size: 100px;
+	text-align: center;
+	color: white;
+	color: black;
+	-webkit-text-fill-color: black; 
+ 	-webkit-text-stroke-width: 0.5px;
+  	-webkit-text-stroke-color: white;
+	display: block;
+}
+
+
+
+.nerd {
+	position: fixed;
+	top: 470px;
+	left: 80px;
+	font-size: 10vw;
+}
+
+.galaxy {
+	position: fixed;
+	top: 90px;
+    right: 80px;
+	font-size: 15vw;
+}
+
+
+.align {
+	font-size: 2vw;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	text-align: right;
+	font-family: arial;
+	font-weight: bold;
+	line-height: 130%;
+	display: block;
+}
+
+.align a {
+	text-decoration: none;
+	color: black;
+	-webkit-text-fill-color: black; 
+ 	-webkit-text-stroke-width: 0.5px;
+  	-webkit-text-stroke-color: white;
+	display: block;
+}
+
+
+.subtitleone {
+	right: 20px;
+}
+
+.subtitleone:hover {
+  font-size: 0;
+}
+
+.subtitleone:hover:before{
+	font-size: 2vw;
+	content: "〽 WORKSHOP 1: CHANTS";
+	font-size: 2vw;
+}
+
+
+
+.subtitletwo {
+	right: 20px;
+}
+
+.subtitletwo:hover {
+  font-size: 0;
+}
+
+.subtitletwo:hover:before{
+	font-size: 2vw;
+	content: "🌏 PROJECT 1; WEIRD SIGNALS";
+	font-size: 2vw;
+}
+
+.subtitlethree {
+	right: 20px;
+}
+
+.subtitlethree:hover {
+  font-size: 0;
+}
+
+.subtitlethree:hover:before{
+	font-size: 2vw;
+	content: "🧪 PROJECT 2: TEMPPORAL LOOPS";
+	font-size: 2vw;
+}
+
+.subtitlefour {
+	right: 20px;
+}
+
+.subtitlefour:hover {
+  font-size: 0;
+}
+
+.subtitlefour:hover:before{
+	font-size: 2vw;
+	content: "👽 PROJECT 3: UNKOWN";
+	font-size: 2vw;
+}
+
+.subtitlefive {
+	right: 20px;
+}
+
+.subtitlefive:hover {
+  font-size: 0;
+}
+
+.subtitlefive:hover:before{
+	font-size: 2vw;
+	content: "🌊 SURFCLUB";
+	font-size: 2vw;
+}
+
+.subtitlesix {
+	right: 20px;
+}
+
+.subtitlesix:hover {
+  font-size: 0;
+}
+
+.subtitlesix:hover:before{
+	font-size: 2vw;
+	content: "👾 DPUB";
+}	
+
+
+.copy {
+	color: black;
+	font-size: 10px;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: white;
+	padding: 10px;
+}
